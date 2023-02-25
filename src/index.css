@@ -20,7 +20,12 @@ body {
 
 
 .Header{
-  font-size: x-large;
+  font-size: xx-large;
+  border-bottom: 15px solid ;
+  margin-bottom: 50px;
+  border-image: linear-gradient(to left, var(--red) 0%, var(--blue) 25%, var(--green) 50%, var(--yellow) 75%, var(--pink) 100%);
+  border-image-slice: 1;
+  color:darkslategrey;
 }
 
 .Container {
