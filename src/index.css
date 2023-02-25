@@ -1,19 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+body {
+  font-family: "Shadows Into Light";
+  --red: #FF968A;
+  --orange: #ffc8a2;
+  --yellow: #ffffb5;
+  --green-yellow: #f6eac2;
+  --green: #97C1A9;
+  --blue-green: #C6DBDA;
+  --cyan: #A2E1DB;
+  --blue: #ABDEE6;
+  --indio: #ECD5E3;
+  --purple: #CDAACD;
+  --violet: #FEE1E8;
+  --pink: #F3B0C3;
+  --background: #F5EDE6;
+  --button-opacity: 75%;
+  background-color: var(--background);
+}
+
+
+.Header{
+  font-size: x-large;
+}
+
 .Container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content:space-between
-};
-
-.Card {
-  background-color: blue;
-  height: 450px;
-  margin-bottom: 5000px;
+  justify-content:space-between;
 }
 
+.Card {
+  background-color: white;  
+  height: 400px;
+  width: 210px;
+  margin: 0px 25px 50px 25px;
+  padding: 25px;
+  border-bottom: 10px solid;
+}
 
 .Card img {
   height: 300px;
   width: 210px;
   object-fit: cover;
-};
+}
+
+.card-button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.Card button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    height: 75px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Card:nth-of-type(12n + 1) {
+  color: var(--red);
+}
+
+.Card:nth-of-type(12n + 2) {
+  color: var(--orange);
+}
+
+.Card:nth-of-type(12n + 3) {
+  color: var(--yellow);
+}
+
+.Card:nth-of-type(12n + 4) {
+  color: var(--green-yellow);
+}
+
+.Card:nth-of-type(12n + 5) {
+  color: var(--green);
+}
+
+.Card:nth-of-type(12n + 6) {
+  color: var(--blue-green);
+}
+
+.Card:nth-of-type(12n + 7) {
+  color: var(--cyan);
+}
+
+.Card:nth-of-type(12n + 8) {
+  color: var(--blue);
+}
+
+.Card:nth-of-type(12n + 9) {
+  color: var(--indio);
+}
+
+.Card:nth-of-type(12n + 10) {
+  color: var(--purple);
+}
+
+.Card:nth-of-type(12n + 11) {
+  color: var(--violet);
+}
+.Card:nth-of-type(12n + 12) {
+  color: var(--pink);
+}
+
+
+.Card:nth-of-type(12n + 1) button {
+  background-color: var(--red);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 2) button {
+  background-color: var(--orange);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 3) button {
+  background-color: var(--yellow);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 4) button {
+  background-color: var(--green-yellow);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 5) button {
+  background-color: var(--green);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 6) button {
+  background-color: var(--blue-green);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 7) button {
+  background-color: var(--cyan);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 8) button {
+  background-color: var(--blue);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 9) button {
+  background-color: var(--indio);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 10) button {
+  background-color: var(--purple);
+  opacity: var(--button-opacity);
+}
+
+.Card:nth-of-type(12n + 11) button {
+  background-color: var(--violet);
+  opacity: var(--button-opacity);
+}
+.Card:nth-of-type(12n + 12) button {
+  background-color: var(--pink);
+  opacity: var(--button-opacity);
+}
